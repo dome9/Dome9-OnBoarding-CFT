@@ -1,12 +1,29 @@
+
 # Dome9-OnBoarding-CFT
-CloudFormation Template to connenct  AWS account to Dome9 
+CloudFormation Template that Prepare Role on AWS account to connenct to Dome9 
 
 
 <u>The Process:<u>
 
-1. Create new CFT stack
-2. Choose file according to the protaction mode you choose (Read Only aor Full Protect)
-3. Use parameter "Externalid" tou got from the onboarding process
-4. Make sure you check "I acknowledge that AWS CloudFormation might create IAM resources." in the concule or use "--capabilities CAPABILITY_IAM" in cli command. 
-5. When the process will finish you will get the "role ARN" and the "External ID"
- 
+1. Choose file according to the protection mode you prefer (Read Only or Full Protect)
+2. Create new CFT stack
+3. Use the parameter "Externalid" from the onboarding process under "Create Role" step.
+4. Make sure you check "I acknowledge that AWS CloudFormation might create IAM resources." in the console or use "--capabilities CAPABILITY_IAM" in cli command. 
+5. After the process finished, a new role is created which will contain the "role ARN" and the "External ID" that required to enter.
+
+1. Choose file according to the protection mode you prefer (Read Only or Full Protect)
+![on-boarding-cft - Staging](https://github.com/Dome9/wiki/blob/master/images/on-boarding-cft.png)
+
+2. Create new CFT stack and use the downloaded file 
+Inline image 2
+
+Enter External ID according to the Create role step
+Inline image 4
+
+Inline image 3
+
+On progress
+Inline image 5
+
+
+Inline image 6

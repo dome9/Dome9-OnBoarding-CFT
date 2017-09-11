@@ -1,4 +1,8 @@
 
+# This has moved to https://github.com/Dome9/onboarding-scripts
+# Please check there for all future updates
+
+
 # Dome9-OnBoarding-CFT
 CloudFormation Template that Prepare Role on AWS account to connenct to Dome9 
 
